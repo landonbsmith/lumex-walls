@@ -1,0 +1,86 @@
+{
+  "brand": {
+    "cyan": {
+      "name": "Electric Cyan",
+      "hex": "#00E5FF",
+      "usage": "Primary accent, links, active states, glows"
+    },
+    "blue": {
+      "name": "Ultra Blue",
+      "hex": "#0066FF",
+      "usage": "Primary brand blue, buttons, gradients"
+    },
+    "purple": {
+      "name": "Vivid Purple",
+      "hex": "#9B00FF",
+      "usage": "Gradient midpoint, secondary accent"
+    },
+    "magenta": {
+      "name": "Hot Magenta",
+      "hex": "#FF00BB",
+      "usage": "Highlights, energy accents, CTAs"
+    },
+    "orange": {
+      "name": "Signal Orange",
+      "hex": "#FF7A00",
+      "usage": "Warm accent, sparingly for emphasis"
+    },
+    "white": {
+      "name": "Pure White",
+      "hex": "#FFFFFF",
+      "usage": "Headlines, primary text on dark"
+    }
+  },
+  "neutral": {
+    "black": {
+      "name": "Void Black",
+      "hex": "#05060F",
+      "usage": "Page background"
+    },
+    "panel": {
+      "name": "Panel",
+      "hex": "#0B0E1C",
+      "usage": "Cards, sections, elevated surfaces"
+    },
+    "border": {
+      "name": "Border",
+      "hex": "#1E2438",
+      "usage": "Dividers, card borders"
+    },
+    "muted": {
+      "name": "Muted Text",
+      "hex": "#8FA0BC",
+      "usage": "Body copy, captions on dark"
+    }
+  },
+  "gradients": {
+    "primary": [
+      "#00E5FF",
+      "#0066FF",
+      "#9B00FF"
+    ],
+    "energy": [
+      "#FF7A00",
+      "#FF00BB",
+      "#9B00FF"
+    ],
+    "full": [
+      "#00E5FF",
+      "#0066FF",
+      "#9B00FF",
+      "#FF00BB",
+      "#FF7A00"
+    ]
+  },
+  "font": {
+    "family": "Exo 2",
+    "weights": [
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "google": "https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&display=swap"
+  }
+}

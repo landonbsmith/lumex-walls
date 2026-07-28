@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" role="img" aria-label="Versatile Applications">
+<title>Versatile Applications</title><defs><linearGradient id="g" x1="0" y1="0" x2="0.35" y2="1">
+<stop offset="0" stop-color="#00E5FF"/><stop offset="0.45" stop-color="#0066FF"/>
+<stop offset="1" stop-color="#9B00FF"/></linearGradient></defs>
+<g stroke="url(#g)" stroke-width="3" stroke-linecap="round" fill="none">
+<rect x="5" y="17" width="26" height="38" rx="4"/>
+<rect x="33" y="9" width="26" height="38" rx="4"/>
+<path d="M12 48h12" stroke-width="2.5"/>
+<path d="M40 40h12" stroke-width="2.5"/></g>
+</svg>

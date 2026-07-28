@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" role="img" aria-label="Stunning Visuals">
+<title>Stunning Visuals</title><defs><linearGradient id="g" x1="0" y1="0" x2="0.35" y2="1">
+<stop offset="0" stop-color="#00E5FF"/><stop offset="0.45" stop-color="#0066FF"/>
+<stop offset="1" stop-color="#9B00FF"/></linearGradient></defs>
+<g stroke="url(#g)" stroke-width="3" stroke-linecap="round" fill="none">
+<path d="M3 32c9.5-14.5 22-21.5 29-21.5S52.5 17.5 61 32c-8.5 14.5-22 21.5-29 21.5S12.5 46.5 3 32Z"/>
+<circle cx="32" cy="32" r="9.5"/>
+<path d="M32 24.5v4M32 35.5v4M24.5 32h4M35.5 32h4" stroke-width="2"/></g>
+</svg>

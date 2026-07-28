@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 140" width="130" height="140" role="img" aria-label="Lumex Walls">
+<title>Lumex Walls mark</title>
+<defs>
+  <linearGradient id="lxFace" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#05060F" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#05060F" stop-opacity="0.10"/>
+  </linearGradient>
+  <linearGradient id="lxTop"><stop offset="0" stop-color="#05060F"/></linearGradient>
+  <linearGradient id="lxSide"><stop offset="0" stop-color="#05060F" stop-opacity="0.55"/></linearGradient>
+  <clipPath id="lxClip"><path d="M20 24 L46 10 L46 98 L106 98 L106 126 L20 126 Z"/></clipPath>
+</defs>
+
+  <path d="M20 24 L46 10 L46 98 L106 98 L106 126 L20 126 Z" fill="#05060F" opacity="0.16"/>
+  <path d="M46 98 L106 98 L120 90 L60 90 Z" fill="#05060F" opacity="0.65"/>
+  <path d="M20 24 L46 10 L60 2 L34 16 Z" fill="#05060F"/>
+  <path d="M106 98 L120 90 L120 118 L106 126 Z" fill="#05060F" opacity="0.4"/>
+  <path d="M20 24 L46 10 L46 98 L106 98 L106 126 L20 126 Z" fill="none" stroke="#05060F" stroke-width="3" stroke-linejoin="round"/>
+</svg>

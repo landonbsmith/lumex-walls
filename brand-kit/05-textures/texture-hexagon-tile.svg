@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<defs><pattern id="hex" width="56" height="97" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+<path d="M28 0 L56 16 L56 48 L28 64 L0 48 L0 16 Z" fill="none" stroke="#1E2438" stroke-width="1.4"/>
+<path d="M28 48.5 L56 64.5 L56 96.5 L28 112.5 L0 96.5 L0 64.5 Z" fill="none" stroke="#1E2438" stroke-width="1.4"/>
+</pattern>
+<radialGradient id="hv" cx="0.5" cy="0.5" r="0.75">
+<stop offset="0" stop-color="#0E1428" stop-opacity="0"/><stop offset="1" stop-color="#05060F"/></radialGradient>
+</defs>
+<rect width="1600" height="900" fill="#080A14"/><rect width="1600" height="900" fill="url(#hex)"/>
+<rect width="1600" height="900" fill="url(#hv)"/></svg>

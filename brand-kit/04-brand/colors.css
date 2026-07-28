@@ -1,0 +1,33 @@
+/* Lumex Walls — brand color tokens */
+:root {
+  --lumex-cyan: #00E5FF;        /* Electric Cyan — Primary accent, links, active states, glows */
+  --lumex-blue: #0066FF;        /* Ultra Blue — Primary brand blue, buttons, gradients */
+  --lumex-purple: #9B00FF;        /* Vivid Purple — Gradient midpoint, secondary accent */
+  --lumex-magenta: #FF00BB;        /* Hot Magenta — Highlights, energy accents, CTAs */
+  --lumex-orange: #FF7A00;        /* Signal Orange — Warm accent, sparingly for emphasis */
+  --lumex-white: #FFFFFF;        /* Pure White — Headlines, primary text on dark */
+
+  --lumex-black: #05060F;        /* Void Black — Page background */
+  --lumex-panel: #0B0E1C;        /* Panel — Cards, sections, elevated surfaces */
+  --lumex-border: #1E2438;        /* Border — Dividers, card borders */
+  --lumex-muted: #8FA0BC;        /* Muted Text — Body copy, captions on dark */
+
+  /* Signature gradients */
+  --lumex-gradient-primary: linear-gradient(135deg, #00E5FF 0%, #0066FF 40%, #9B00FF 100%);
+  --lumex-gradient-energy:  linear-gradient(120deg, #FF7A00 0%, #FF00BB 45%, #9B00FF 100%);
+  --lumex-gradient-full:    linear-gradient(90deg, #00E5FF, #0066FF, #9B00FF, #FF00BB, #FF7A00);
+  --lumex-gradient-surface: radial-gradient(120% 100% at 30% 0%, #1B2350 0%, #0B0F22 50%, #05060F 100%);
+
+  /* Glows */
+  --lumex-glow-cyan:   0 0 24px rgba(0,229,255,.45);
+  --lumex-glow-purple: 0 0 32px rgba(155,0,255,.40);
+
+  /* Type */
+  --lumex-font: "Exo 2", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+/* Utility: gradient text */
+.lumex-gradient-text {
+  background: var(--lumex-gradient-primary);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}

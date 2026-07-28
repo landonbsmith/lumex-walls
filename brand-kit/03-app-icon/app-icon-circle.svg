@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+  <linearGradient id="lxFace" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0" stop-color="#0B0E1C"/><stop offset="0.55" stop-color="#131a35"/>
+    <stop offset="1" stop-color="#080a16"/>
+  </linearGradient>
+  <linearGradient id="lxTop" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#0066FF"/><stop offset="0.5" stop-color="#00E5FF"/>
+    <stop offset="1" stop-color="#9CF6FF"/>
+  </linearGradient>
+  <linearGradient id="lxSide" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#9B00FF"/><stop offset="1" stop-color="#0066FF"/>
+  </linearGradient>
+  <linearGradient id="lxStreak" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF7A00"/><stop offset="0.32" stop-color="#FF00BB"/>
+    <stop offset="0.66" stop-color="#9B00FF"/><stop offset="1" stop-color="#00E5FF"/>
+  </linearGradient>
+  <linearGradient id="lxEdge" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#FF00BB"/><stop offset="0.5" stop-color="#0066FF"/>
+    <stop offset="1" stop-color="#00E5FF"/>
+  </linearGradient>
+  <filter id="lxGlow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="lxSoft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  <clipPath id="lxClip"><path d="M20 24 L46 10 L46 98 L106 98 L106 126 L20 126 Z"/></clipPath>
+  <linearGradient id="lxSilver" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.45" stop-color="#E6ECF7"/>
+    <stop offset="0.55" stop-color="#AAB6CC"/><stop offset="1" stop-color="#F2F6FF"/>
+  </linearGradient>
+  <linearGradient id="lxXgrad" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#00E5FF"/><stop offset="0.5" stop-color="#0066FF"/>
+    <stop offset="1" stop-color="#9B00FF"/>
+  </linearGradient>
+
+<radialGradient id="bg" cx="0.3" cy="0.15" r="1.1">
+<stop offset="0" stop-color="#1B2350"/><stop offset="0.5" stop-color="#0B0F22"/><stop offset="1" stop-color="#05060F"/>
+</radialGradient>
+<clipPath id="sq"><circle cx="512.0" cy="512.0" r="512.0"/></clipPath></defs>
+<g clip-path="url(#sq)"><rect width="1024" height="1024" fill="url(#bg)"/><circle cx="225.28" cy="901.12" r="430.08" fill="#FF00BB" opacity="0.16"/><circle cx="870.4" cy="184.32" r="368.64" fill="#00E5FF" opacity="0.14"/></g>
+<g transform="translate(217.2,194.6) scale(4.5349)">
+
+  <path d="M20 24 L46 10 L46 98 L106 98 L106 126 L20 126 Z" fill="url(#lxFace)"/>
+  <g clip-path="url(#lxClip)">
+    <path d="M-10 132 L58 40 L92 60 L18 150 Z" fill="url(#lxStreak)" filter="url(#lxSoft)" opacity="0.95"/>
+    <path d="M4 128 L52 62 L70 74 L22 140 Z" fill="url(#lxStreak)" opacity="0.9"/>
+    <path d="M30 120 L60 78 L68 84 L38 126 Z" fill="#FFFFFF" opacity="0.45" filter="url(#lxSoft)"/>
+  </g>
+  <path d="M46 98 L106 98 L120 90 L60 90 Z" fill="url(#lxTop)" opacity="0.92"/>
+  <path d="M20 24 L46 10 L60 2 L34 16 Z" fill="url(#lxTop)"/>
+  <path d="M106 98 L120 90 L120 118 L106 126 Z" fill="url(#lxSide)" opacity="0.85"/>
+  <path d="M20 126 L20 24 L46 10" fill="none" stroke="url(#lxEdge)" stroke-width="3.4" stroke-linecap="round"
+        stroke-linejoin="round" filter="url(#lxGlow)"/>
+  <path d="M20 24 L46 10 L46 98 L106 98 L106 126 L20 126 Z" fill="none" stroke="#00E5FF" stroke-width="1" opacity="0.5" stroke-linejoin="round"/>
+</g>
+</svg>
