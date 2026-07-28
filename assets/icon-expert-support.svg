@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" role="img" aria-label="Expert Support">
+<title>Expert Support</title><defs><linearGradient id="g" x1="0" y1="0" x2="0.35" y2="1">
+<stop offset="0" stop-color="#00E5FF"/><stop offset="0.45" stop-color="#0066FF"/>
+<stop offset="1" stop-color="#9B00FF"/></linearGradient></defs>
+<g stroke="url(#g)" stroke-width="3" stroke-linecap="round" fill="none">
+<path d="M11 39v-6a21 21 0 0 1 42 0v6" stroke-linejoin="round"/>
+<rect x="4" y="36" width="12" height="17" rx="5.5"/>
+<rect x="48" y="36" width="12" height="17" rx="5.5"/>
+<path d="M54 53c0 4.5-5 7-12 7" />
+<rect x="34" y="56" width="9" height="7" rx="3.5"/></g>
+</svg>
